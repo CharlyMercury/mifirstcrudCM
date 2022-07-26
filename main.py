@@ -8,7 +8,7 @@ app = FastAPI()
 
 @app.get(path = "/")
 def home():
-    return "Welcome To Charly's Mercury BlogSpot"
+    return {"Dedicado a Blanquita": "Hermosita"}
 
 
 @app.get(
