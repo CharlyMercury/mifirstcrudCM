@@ -1,9 +1,9 @@
 from fastapi import FastAPI
-from routes.user import users
+from routes.user import usersapp
 
 
 app = FastAPI()
-app.include_router(users)
+app.include_router(usersapp)
 
 
 @app.get(path = "/")
